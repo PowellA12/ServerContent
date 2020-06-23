@@ -18,7 +18,6 @@
         },
         "facing=north": {
             "resistance": 10.0,
-            "opaque": ,
             "action": {
                 "destroy": [
                     {

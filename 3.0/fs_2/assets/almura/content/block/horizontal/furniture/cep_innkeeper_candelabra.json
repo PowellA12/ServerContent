@@ -3,7 +3,13 @@
     "map_color": "minecraft:dirt",
     "item_group": "almura:furniture",
     "state": {
-        "normal": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
             "aabb": {
                 "shape": {
                     "min": [ 0.0, 0.0, 0.0 ],
@@ -31,6 +37,9 @@
                     }
                 ]
             }
+        },
+        "facing=west": {
+            "parent": "facing=north"
         }
     }
 }
