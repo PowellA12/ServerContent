@@ -21,7 +21,7 @@
             "resistance": 5.0,
             "light": {
                 "emission": 0.0,
-                "opacity": 0
+                "opacity": 200
             },
             "opaque": false,
             "block_face_shape": "solid",
